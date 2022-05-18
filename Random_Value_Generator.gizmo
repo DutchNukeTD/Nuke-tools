@@ -3,13 +3,16 @@ version 13.2 v1
 push $cut_paste_input
 Group {
  name Random_Value_Generator
+ help "This gizmo either sets the value to 0 or 1."
  selected true
- xpos 40
- ypos -247
- addUserKnob {20 User}
+ xpos 29
+ ypos -368
+ addUserKnob {20 Options}
  addUserKnob {7 Value}
  Value 1
  addUserKnob {22 Toggle T "if nuke.thisNode().knob('Value').value() == 0: \n    nuke.thisNode().knob('Value').setValue(1) \nelse: \n    nuke.thisNode().knob('Value').setValue(0)" +STARTLINE}
+ addUserKnob {26 "" +STARTLINE}
+ addUserKnob {26 info l "" +STARTLINE T "Random_Value_Generator v1.1\nLast Updated: 18 mei 2022"}
 }
  Input {
   inputs 0
