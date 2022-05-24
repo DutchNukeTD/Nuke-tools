@@ -3,5 +3,5 @@ My personal nuke tools
 
 ## Random_Value_Generator
 #### *Last updates: September 28th, 2020*
-Toggle a value between 0 and 1 with the click of a button! 
+Toggle a value between 0 and 1 with the click of a button!   
 Added a button that actually generates a random value -- added by DutchNukeTD
